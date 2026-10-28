@@ -70,16 +70,14 @@ These are preliminary system-design outcomes, not a final procurement decision. 
 
 AI assistance was used during preparation to help structure the system design, consider edge cases, and draft proposed extraction prompts. The scoring approach and sample results should be reviewed against the assessment requirements before submission.
 
-The design does not assume that LLM outputs are always correct. Extracted facts require supporting evidence, and ambiguous mandatory requirements are sent for human review.
-
-No production implementation or live procurement integration is claimed by this repository. It documents a proposed architecture and an illustrative evaluation.
+I used AI tools (Gemini & ChatGPT) to brainstorm the system architecture and draft the extraction prompts. During brainstorming, the AI initially suggested letting the LLM calculate the final numerical scores and recommend the contract award. I disagreed with this approach and explicitly designed the system to use a deterministic rule engine for scoring instead. Relying on an LLM for final math and policy decisions creates a black box that isn't auditable or reliable for procurement.
 
 ## Submission Details
 
 - **Reference:** MATACS-TH-2026-02
-- **Candidate name:** [Enter your full name]
-- **Time spent:** [Enter your actual time spent]
-- **Repository:** [Paste your GitHub repository URL]
+- **Candidate name:** Muhammad Hamza
+- **Time spent:** 46 min
+- **Repository:** https://github.com/Muhammad-Hamza-123/matacs-th-2026-02
 
 ## Important Notes
 
